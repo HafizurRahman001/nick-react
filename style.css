@@ -56,4 +56,8 @@
     .footer-top-image, .footer-top-image>img{
         width: 100%;
     }
+    .footer-top-right{
+        order: -1;
+    }
+   
 }
