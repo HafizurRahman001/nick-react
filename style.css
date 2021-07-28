@@ -35,6 +35,7 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+    
     .banner-heading{
         font-size: 35px !important;
         font-weight: bold;
@@ -46,18 +47,48 @@
         width: 326px;
     }
 }
-@media only screen and (min-width: 380px) {
+
+@media only screen and (max-width: 688px) {
+    
     .banner-content{
         padding-left: 40px !important;
     }
     .banner-heading{
         font-size: 40px !important;
     }
-    .footer-top-image, .footer-top-image>img{
+    .footer-top-image, .footer-top-image img{
         width: 100%;
     }
-    .footer-top-right{
-        order: -1;
-    }
    
+    .gadgets-icon{
+        display: block !important;
+    }
+    .footer-icons {
+        width: 157px;
+        margin: auto;
+    }
+    .footer-top-content{
+        text-align: center;
+    }
+
+
+    /* ===============set image top in mobile device========== */
+    .footer-top-area{
+        flex-direction: column-reverse;
+    }
+     /* =============another way to set image top in mobile device=============== */
+    /* .footer-top-right{
+        order: -1 !important;
+    } */
+
+    /* =============another way to set image top in mobile device=============== */
+   
+    /* .footer-top-right{
+        order: 1 !important;
+    }
+    .footer-top-left{
+        order: 2 !important;
+    } */
+
+    
 }
