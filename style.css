@@ -1,9 +1,5 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-</style>
 
-
-.nav-items>li>a{
+.nav-items li a{
     color: black !important;
     font-size: 19px;
     font-weight: 700;
@@ -34,7 +30,7 @@
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 688px) and (max-width: 992px) {
     
     .banner-heading{
         font-size: 35px !important;
