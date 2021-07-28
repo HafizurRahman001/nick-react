@@ -1,0 +1,59 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+
+
+.nav-items>li>a{
+    color: black !important;
+    font-size: 19px;
+    font-weight: 700;
+}
+.header-section{
+    background: #FFF9F4;
+}
+.banner-heading{
+    font-size: 58px !important;
+    font-weight: bold;
+}
+.buy-now-button{
+    background-color: blue;
+    color: white;
+}
+.buy-now-button:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+.footer-top-section {
+    margin: 71px 0;
+}
+.footer-top-item {
+    box-shadow: 3px 5px 9px rgb(128 128 128 / 35%);
+}
+.formal-shoes-heading, .casual-shoes-heading{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .banner-heading{
+        font-size: 35px !important;
+        font-weight: bold;
+    }
+    .fas, .buy-now-button{
+        font-size: 10px;
+    }
+    .banner-img {
+        width: 326px;
+    }
+}
+@media only screen and (min-width: 380px) {
+    .banner-content{
+        padding-left: 40px !important;
+    }
+    .banner-heading{
+        font-size: 40px !important;
+    }
+    .footer-top-image, .footer-top-image>img{
+        width: 100%;
+    }
+}
